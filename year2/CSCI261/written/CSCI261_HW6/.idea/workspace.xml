@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b513c02-b63f-490d-8a26-aab5d191e01d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1rHfdkcxtuRACbsl2wjb5qQl7lF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SWEN261" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.WeightedInterval">
+    <configuration name="SubsetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex2.SubsetSum" />
+      <module name="CSCI261_HW6" />
+      <option name="PROGRAM_PARAMETERS" value="100in 762" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Ex2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeightedInterval" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex1.WeightedInterval" />
+      <module name="CSCI261_HW6" />
+      <option name="PROGRAM_PARAMETERS" value="100in" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Ex1/" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WeightedInterval" />
+      <item itemvalue="Application.SubsetSum" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SubsetSum" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b513c02-b63f-490d-8a26-aab5d191e01d" name="Default Changelist" comment="" />
+      <created>1618638024342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618638024342</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2688" y="281" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619157264924">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state x="2688" y="281" key="#com.intellij.execution.impl.EditConfigurationsDialog/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1619157264924" />
+    <state x="618" y="228" key="#com.intellij.execution.impl.EditConfigurationsDialog/93.0.1827.1080@93.0.1827.1080" timestamp="1619130107649" />
+    <state width="914" height="507" key="GridCell.Tab.0.bottom" timestamp="1619215997287">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="914" height="507" key="GridCell.Tab.0.bottom/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1619215997287" />
+    <state width="1784" height="294" key="GridCell.Tab.0.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1619137401915" />
+    <state width="914" height="507" key="GridCell.Tab.0.center" timestamp="1619215997287">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="914" height="507" key="GridCell.Tab.0.center/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1619215997287" />
+    <state width="1784" height="294" key="GridCell.Tab.0.center/93.0.1827.1080@93.0.1827.1080" timestamp="1619137401915" />
+    <state width="914" height="507" key="GridCell.Tab.0.left" timestamp="1619215997286">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="914" height="507" key="GridCell.Tab.0.left/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1619215997286" />
+    <state width="1784" height="294" key="GridCell.Tab.0.left/93.0.1827.1080@93.0.1827.1080" timestamp="1619137401915" />
+    <state width="914" height="507" key="GridCell.Tab.0.right" timestamp="1619215997287">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="914" height="507" key="GridCell.Tab.0.right/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1619215997287" />
+    <state width="1784" height="294" key="GridCell.Tab.0.right/93.0.1827.1080@93.0.1827.1080" timestamp="1619137401915" />
+    <state x="3055" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1619214580360">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state x="3055" y="348" key="com.intellij.ide.util.TipDialog/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1619214580360" />
+    <state x="212" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1619124595076">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="212" y="240" width="672" height="678" key="search.everywhere.popup/93.0.1827.1080@93.0.1827.1080" timestamp="1619124595076" />
+  </component>
+</project>

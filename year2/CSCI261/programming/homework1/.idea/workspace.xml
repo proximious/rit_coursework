@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab7bbeba-e22d-4d40-b041-1ac2ed404151" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1o84xLTLHEUEPn2YxfnzXpNoioA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexi\Desktop\CSCI261\programming\homework1" />
+      <recent name="C:\Users\alexi\Desktop\CSCI261\programming\homework1\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Stable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stable" />
+      <module name="homework1" />
+      <option name="PROGRAM_PARAMETERS" value="3.in" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Stable" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab7bbeba-e22d-4d40-b041-1ac2ed404151" name="Default Changelist" comment="" />
+      <created>1612655129323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612655129323</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="598" y="199" key="#Project_Structure" timestamp="1612655138634">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="598" y="199" key="#Project_Structure/93.0.1827.1080@93.0.1827.1080" timestamp="1612655138634" />
+    <state x="460" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616523394076">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="460" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/93.0.1827.1080@93.0.1827.1080" timestamp="1616523394076" />
+    <state x="786" y="295" key="FileChooserDialogImpl" timestamp="1612900501822">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="786" y="295" key="FileChooserDialogImpl/93.0.1827.1080@93.0.1827.1080" timestamp="1612900501822" />
+    <state width="1767" height="264" key="GridCell.Tab.0.bottom" timestamp="1620441260568">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1767" height="264" key="GridCell.Tab.0.bottom/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1620441260568" />
+    <state width="867" height="275" key="GridCell.Tab.0.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1616530945438" />
+    <state width="1767" height="264" key="GridCell.Tab.0.center" timestamp="1620441260566">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1767" height="264" key="GridCell.Tab.0.center/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1620441260566" />
+    <state width="867" height="275" key="GridCell.Tab.0.center/93.0.1827.1080@93.0.1827.1080" timestamp="1616530945438" />
+    <state width="1767" height="264" key="GridCell.Tab.0.left" timestamp="1620441260566">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1767" height="264" key="GridCell.Tab.0.left/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1620441260566" />
+    <state width="867" height="275" key="GridCell.Tab.0.left/93.0.1827.1080@93.0.1827.1080" timestamp="1616530945437" />
+    <state width="1767" height="264" key="GridCell.Tab.0.right" timestamp="1620441260566">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1767" height="264" key="GridCell.Tab.0.right/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1620441260566" />
+    <state width="867" height="275" key="GridCell.Tab.0.right/93.0.1827.1080@93.0.1827.1080" timestamp="1616530945438" />
+    <state width="1784" height="364" key="GridCell.Tab.1.bottom" timestamp="1614820743450">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="364" key="GridCell.Tab.1.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1614820743450" />
+    <state width="1784" height="364" key="GridCell.Tab.1.center" timestamp="1614820743450">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="364" key="GridCell.Tab.1.center/93.0.1827.1080@93.0.1827.1080" timestamp="1614820743450" />
+    <state width="1784" height="364" key="GridCell.Tab.1.left" timestamp="1614820743450">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="364" key="GridCell.Tab.1.left/93.0.1827.1080@93.0.1827.1080" timestamp="1614820743450" />
+    <state width="1784" height="364" key="GridCell.Tab.1.right" timestamp="1614820743450">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="364" key="GridCell.Tab.1.right/93.0.1827.1080@93.0.1827.1080" timestamp="1614820743450" />
+    <state x="486" y="115" key="SettingsEditor" timestamp="1612900505065">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="486" y="115" key="SettingsEditor/93.0.1827.1080@93.0.1827.1080" timestamp="1612900505065" />
+    <state x="728" y="281" width="540" height="524" key="StructurePopup" timestamp="1612649988787">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="728" y="281" width="540" height="524" key="StructurePopup/93.0.1827.1080@93.0.1827.1080" timestamp="1612649988787" />
+    <state x="702" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1616533401538">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="702" y="364" key="com.intellij.ide.util.TipDialog/93.0.1827.1080@93.0.1827.1080" timestamp="1616533401538" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="input" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

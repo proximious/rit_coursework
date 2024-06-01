@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a9a9413-5fbf-4925-b88c-38b64bfe864a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qDsAnAYUgKzYfcpddpEURbH01t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SWEN261" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\collegeFiles\CSCI261\programming\homework4\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Kruskal">
+    <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kruskal" />
+      <module name="homework4" />
+      <option name="PROGRAM_PARAMETERS" value="20 20.out" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDS" />
+      <module name="homework4" />
+      <option name="PROGRAM_PARAMETERS" value="6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDisjHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDisjHeight" />
+      <module name="homework4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDisjSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDisjSets" />
+      <module name="homework4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Kruskal" />
+      <item itemvalue="Application.TestDS" />
+      <item itemvalue="Application.TestDisjHeight" />
+      <item itemvalue="Application.TestDisjSets" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Kruskal" />
+        <item itemvalue="Application.TestDS" />
+        <item itemvalue="Application.TestDisjSets" />
+        <item itemvalue="Application.TestDisjHeight" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a9a9413-5fbf-4925-b88c-38b64bfe864a" name="Default Changelist" comment="" />
+      <created>1616625353630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616625353630</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="598" y="199" key="#Project_Structure" timestamp="1616625363230">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="598" y="199" key="#Project_Structure/93.0.1827.1080@93.0.1827.1080" timestamp="1616625363230" />
+    <state x="2693" y="263" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617817831073">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state x="2693" y="263" key="#com.intellij.execution.impl.EditConfigurationsDialog/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617817831073" />
+    <state x="828" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog/93.0.1827.1080@93.0.1827.1080" timestamp="1616736480646" />
+    <state x="1268" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1616727633592">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="1268" y="260" key="#com.intellij.ide.util.MemberChooser/93.0.1827.1080@93.0.1827.1080" timestamp="1616727633592" />
+    <state x="1259" y="429" width="407" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1616722827847">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="1259" y="429" width="407" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/93.0.1827.1080@93.0.1827.1080" timestamp="1616722827847" />
+    <state width="1877" height="366" key="GridCell.Tab.0.bottom" timestamp="1617819980797">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1877" height="366" key="GridCell.Tab.0.bottom/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617819980797" />
+    <state width="868" height="382" key="GridCell.Tab.0.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1616738485614" />
+    <state width="1877" height="366" key="GridCell.Tab.0.center" timestamp="1617819980797">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1877" height="366" key="GridCell.Tab.0.center/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617819980797" />
+    <state width="868" height="382" key="GridCell.Tab.0.center/93.0.1827.1080@93.0.1827.1080" timestamp="1616738485614" />
+    <state width="1877" height="366" key="GridCell.Tab.0.left" timestamp="1617819980797">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1877" height="366" key="GridCell.Tab.0.left/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617819980797" />
+    <state width="868" height="382" key="GridCell.Tab.0.left/93.0.1827.1080@93.0.1827.1080" timestamp="1616738485614" />
+    <state width="1877" height="366" key="GridCell.Tab.0.right" timestamp="1617819980797">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1877" height="366" key="GridCell.Tab.0.right/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617819980797" />
+    <state width="868" height="382" key="GridCell.Tab.0.right/93.0.1827.1080@93.0.1827.1080" timestamp="1616738485614" />
+    <state width="868" height="363" key="GridCell.Tab.1.bottom" timestamp="1616736132889">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="868" height="363" key="GridCell.Tab.1.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1616736132889" />
+    <state width="868" height="363" key="GridCell.Tab.1.center" timestamp="1616736132888">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="868" height="363" key="GridCell.Tab.1.center/93.0.1827.1080@93.0.1827.1080" timestamp="1616736132888" />
+    <state width="868" height="363" key="GridCell.Tab.1.left" timestamp="1616736132888">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="868" height="363" key="GridCell.Tab.1.left/93.0.1827.1080@93.0.1827.1080" timestamp="1616736132888" />
+    <state width="868" height="363" key="GridCell.Tab.1.right" timestamp="1616736132888">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="868" height="363" key="GridCell.Tab.1.right/93.0.1827.1080@93.0.1827.1080" timestamp="1616736132888" />
+    <state x="2172" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1617830267233">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state x="2172" y="364" key="com.intellij.ide.util.TipDialog/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617830267233" />
+    <state x="252" y="364" key="com.intellij.ide.util.TipDialog/93.0.1827.1080@93.0.1827.1080" timestamp="1616794457852" />
+    <state x="1126" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1616734250337">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="1126" y="240" width="672" height="678" key="search.everywhere.popup/93.0.1827.1080@93.0.1827.1080" timestamp="1616734250337" />
+  </component>
+</project>

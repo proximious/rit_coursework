@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0686f486-9cac-420d-b73a-b5d4353fe033" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qm1h7ppWPvpF32ejcmSOXax7eP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../written/CSCI261_HW5" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\collegeFiles\CSCI261\programming\homework5\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestAndTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestAndTime" />
+      <module name="homework5" />
+      <option name="PROGRAM_PARAMETERS" value="9513.in" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestAndTime" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0686f486-9cac-420d-b73a-b5d4353fe033" name="Default Changelist" comment="" />
+      <created>1617670067711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617670067711</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2952" y="182" key="#Project_Structure" timestamp="1617852434782">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state x="2952" y="182" key="#Project_Structure/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617852434782" />
+    <state x="2748" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617855864083">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state x="2748" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617855864083" />
+    <state x="2205" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1617671167189">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state x="2205" y="233" key="#com.intellij.ide.util.MemberChooser/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617671167189" />
+    <state x="3034" y="238" key="FileChooserDialogImpl" timestamp="1617859904337">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state x="3034" y="238" key="FileChooserDialogImpl/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617859904337" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1617856206054">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617856206054" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1617856206054">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617856206054" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1617856206054">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617856206054" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1617856206054">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617856206054" />
+    <state x="3081" y="268" width="540" height="524" key="StructurePopup" timestamp="1617854714583">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state x="3081" y="268" width="540" height="524" key="StructurePopup/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617854714583" />
+    <state x="2575" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1617852548815">
+      <screen x="2013" y="0" width="1827" height="1080" />
+    </state>
+    <state x="2575" y="344" key="com.intellij.ide.util.TipDialog/2013.0.1827.1080/93.0.1827.1080@2013.0.1827.1080" timestamp="1617852548815" />
+  </component>
+</project>
