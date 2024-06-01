@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d03c64b6-e18a-4d37-8b8b-4764edb33ef3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WweNUwv3dyOEUmg58O8Hxqlpe2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RunManager" selected="Application.Poker">
+    <configuration name="Poker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="miniPoker.Poker" />
+      <module name="MiniPoker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="miniPoker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingCards.TestCard" />
+      <module name="MiniPoker" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playingCards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Poker" />
+        <item itemvalue="Application.TestCard" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d03c64b6-e18a-4d37-8b8b-4764edb33ef3" name="Default Changelist" comment="" />
+      <created>1580065044035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580065044035</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="802" y="256" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580070498682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="802" y="256" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580070498682" />
+    <state x="709" y="357" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1580235283259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="709" y="357" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580235283259" />
+    <state x="1154" y="229" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1580070151571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1154" y="229" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580070151571" />
+    <state x="1245" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1580071234703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580071234703" />
+    <state width="1860" height="389" key="GridCell.Tab.0.bottom" timestamp="1580253264415">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="389" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580253264415" />
+    <state width="1860" height="389" key="GridCell.Tab.0.center" timestamp="1580253264415">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="389" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580253264415" />
+    <state width="1860" height="389" key="GridCell.Tab.0.left" timestamp="1580253264414">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="389" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580253264414" />
+    <state width="1860" height="389" key="GridCell.Tab.0.right" timestamp="1580253264415">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="389" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580253264415" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1580314599896">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580314599896" />
+    <state x="1132" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1580854679458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1132" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580854679458" />
+    <state x="1096" y="244" key="run.anything.popup" timestamp="1580225891068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580225891068" />
+  </component>
+</project>
