@@ -1,0 +1,297 @@
+CSCI 344 - Programming Language Concepts
+Assignment A5 (45 points)
+Due Wednesday, Oct 6
+
+##QUESTION 1 (MACRO, 20 pts):
+    From our Slide Set 3 class notes, you have seen that a procedure
+    expression (a ProcExp) evaluates to a closure (a ProcVal) that
+    captures the environment in which the procedure is defined -- that
+    is, where the 'proc' expression occurs.  Consider this example:
+
+    let
+      x = 3
+    in
+      let
+        p = proc(t) +(t,x)
+      in
+        let
+          x = 42
+        in
+          .p(5)
+
+    In our implementation, procedure definition and application use static
+    scope rules. This means that for any variable that occurs free in
+    a procedure body, its binding is determined by the environment in
+    which the procedure is defined. In the above example, the definition
+    of the procedure 'p' occurs in an environment where 'x' is bound to
+    3, so since the variable 'x' occurs free in the body of 'p', 'x'
+    is bound to 3 when the body is evaluated. Recall these steps for
+    carrying out the procedure application '.p(5)' above.  (Step zero
+    is not shown here.)
+
+    1.  Evaluate the actual parameter expression (its *operand*) in the
+    environment where the procedure application appears. In the example
+    above, the operand expression is '5', and it evaluates to the IntVal
+    of 5. This is the application's *argument*. (In other situations,
+    there may be any number of operand expressions to evaluate.)
+
+    2.  Bind the argument to the procedure's formal parameter ('t', in
+    the example above), and use this binding to extend the environment
+    captured by the procedure where the procedure definition occurs.
+    Since the procedure definition for 'p' occurs in the (captured)
+    environment where 'x' is bound to 3, the extended environment now
+    has bindings of 't' to 5 and 'x' to 3.
+
+    3.  Evaluate the body of the procedure in the extended environment
+    obtained in step 2. The body expression in the example above is
+    '+(t,x)', and in the environment obtained in step 2, this evaluates
+    to 8.
+
+    Another approach to dealing with variables that occur free in
+    a procedure body is to use their bindings where the procedure is
+    *applied* rather than where the procedure is *defined*.  This approach
+    is called *dynamic scope rules*, to distinguish it from *static scope
+    rules*. Compared to procedure application, this approach modifies
+    only step 2 above: the environment being extended is the environment
+    in which the *application* appears, not the environment in which
+    the *definition* appears.
+
+    We want to maintain the static scope rules behavior for procedures,
+    so to implement dynamic scope rules we introduce the notion of a
+    'macro'. A macro *definition* behaves like a procedure definition,
+    except that the macro definition does not capture the environment in
+    which the definition occurs. A macro *application* behaves exactly
+    like a procedure application, except that we follow the dynamic
+    scope rules description in the previous paragraph: bind the formal
+    parameters to the arguments, and use these bindings to extend the
+    environment in which the macro is *applied*. Then evaluate the body
+    of the macro in this extended environment.
+
+    Considering this, the following example evaluates to 47:
+
+    let
+      x = 3
+    in
+      let
+        m = macro(t) +(t,x)
+      in
+        let
+          x = 42
+        in
+          .m(5)
+
+    Specifically, the macro *application* .m(5) appears in an environment
+    where x is bound to 42, so the variable x that occurs free in the
+    body of m therefore evaluates to 42 in this application.  The entire
+    expression evalutes to 47.
+
+    You are to implement this macro feature in a language derived from
+    Language V4.  Create a working directory named MACRO and copy the
+    files in the V4 Code directory into this working directory to complete
+    the remainder of this problem. Use the following command to copy these
+    files into your MACRO directory:
+
+        cp /usr/local/pub/plcc/Code/V4/* MACRO
+
+    For the remainder of this question, do your work in the MACRO
+    directory.
+
+    Since a macro doesn't capture the environment in which it is defined
+    (unlike a procedure), we define a MacroVal object to be exactly
+    like a ProcVal object, except that it does not have an Env field.
+    Modify your val file to add the definition of a MacroVal class:
+    Make a copy of the ProcVal class, re-name it to MacroVal, remove
+    the Env field, and appropriately modify the constructor. Then add
+    this class definition to your val file.
+
+    You need to modify your grammar so that its lexical specification
+    includes the MACRO token.  Add an <exp> grammar rule that is exactly
+    like a ProcExp except that it is named MacroExp and it has <macro>
+    on its RHS.  Simliarly, add a <macro> grammar rule that looks exactly
+    like the <proc> grammar rule except that its RHS starts with MACRO
+    instead of PROC.
+
+    In your code file, add a MacroExp section that behaves exactly
+    like the ProcExp section, except that you call 'macro.makeMacro()'
+    instead of 'proc.makeClosure(env)'.  (The reason that you don't pass
+    'env' in the makeMacro method is that a MacroVal doesn't capture its
+    defining environment.)
+
+    In your code file, add a Macro section that looks exactly like the
+    Proc section except that it defines the 'makeMacro method'.  This
+    method has no parameters and simply returns a new MacroVal object,
+    passing it the 'formals' and 'exp' fields -- remember, there's no Env
+    parameter for a MacroVal.
+
+    The only place that now needs fixing is the 'apply' method in the
+    MacroVal class.  Assuming that you copied the apply method from
+    the ProcVal class into the MacroVal class, you need to see how to
+    modify this so that apply will properly behave as a macro.  You will
+    need to modify ONLY TWO CHARACTERS in this definition to make it
+    work properly.
+
+    At this point you should be able to compile everything and test your
+    new language.  Use the above examples to make sure it works as
+    advertised.
+
+    Here's another observation that should cement the difference
+    between procedures and macros.  Since a macro application uses
+    current bindings for variables that occur free in the macro body,
+    a macro can refer to itself without having to use the 'letrec'
+    trick for procedure bindings.  Thus the following definition works:
+
+    let
+      f = macro(t) if t then *(t, .f(sub1(t))) else 1
+    in
+      .f(5) % returns 120
+
+    Although 'f' occurs free in the macro body, by the time '.f(5)'
+    is evaluated, 'f' is bound to the macro, and the occurrence of 'f'
+    in the macro body is now (dynamically) bound.
+
+    Macros are inherently dangerous, however, since it's hard to reason
+    about programs that use dynamic scope rules: you can never depend
+    on what value might be bound to a variable that occurs free in the
+    macro body by examining the static properties of the code.
+
+    You can test your implementation using the expressions above.
+    You should create other examples of test expressions that show the
+    differences between procedure and macro applications.
+
+    Once you have modified your grammar, code, and val files to
+    accommodate macro definitions and applications as described above
+    and tested your implementation, *copy* these files into new files
+    with the following names:
+
+        a5-macro-grammar
+        a5-macro-code
+        a5-macro-val
+
+    and follow the Submission requirements at the end of this document.
+    Do not make any changes to the 'include' lines in your grammar file.
+
+    Grading:
+    20 pts for correct semantics; 0 pts for any plcc/compile errors.
+
+##COMMENT
+
+You are to answer each of the following questions by editing THIS FILE
+and entering your corresponding answers in the spaces following each
+'##ANSWER:' line. Your edited file should be a PLAIN TEXT file. Do *not*
+make *any* changes to this file other than entering your answers in each
+'##ANSWER' section.
+
+##QUESTION 2 (5 pts):
+    We have provided an algorithm (see Slide 3.78) that shows how a
+    'let ... in ... ' expression in Language V4 can be replaced by
+    a procedure application. USE THIS ALGORITHM with the following
+    expression by writing a procedure application that is equivalent to
+    the given expression.  Only replace the 'let ... in ...' parts using
+    the algorithm: do not make any other changes to the given expression.
+    Your answer should not have any 'let's.
+
+    If your answer has any occurrences of 'let', you will get NO CREDIT
+    FOR THIS QUESTION.  If your answer is an expression that does not
+    evaluate to the same value as the original 'let' expression, you will
+    get NO CREDIT FOR THIS QUESTION.  If your answer evaluates to the
+    same value as the original 'let' but does not use the exact algorithm
+    given on Slide 3.78, you will get NO CREDIT FOR THIS QUESTION. If
+    your answer is not a single expression that conforms to Language V4
+    syntax and semantics, you will get NO CREDIT FOR THIS QUESTION. Do
+    not add any comments or other text to your answer.
+
+    [NOTE: You are strongly encouraged to evaluate both the original
+    expression and your 'let' removal conversion expression to be sure
+    that they both evalulate to the same thing in Language V4.]
+
+    let
+      x = 2
+      y = 5
+      z = 8
+    in
+      -(z,+(x,y))
+
+##ANSWER: (!! DO NOT MODIFY THIS LINE !!)
+.proc(x, y, z) -(z, +(x, y)) (1, 2, 3)
+
+
+##QUESTION 3 (5 pts):
+    Repeat the above with the following expression:
+
+    let
+      x = 2
+    in
+      let
+        y = 5
+      in
+        let
+          z = 8
+        in
+          -(z,+(x,y))
+
+    [Note: You are to replace ONLY the 'let ... in ...' parts with
+    procedure applications using the Slide 3.78 algorithm. Do NOT make
+    any other changes to this expression.]
+
+    [Hint: work from the inside out.]
+
+##ANSWER: (!! DO NOT MODIFY THIS LINE !!)
+.proc(x) .proc(y) .proc(z) (-z, +(x, y)) (5) (8) (2)
+
+
+##QUESTION 4 (5 pts):
+    Repeat the above with the following expression:
+
+    .let x = 3 in proc(t) -(t,x)(5)
+
+    [Note: You are to replace ONLY the 'let ... in ...' part with a
+    procedure application using the Slide 3.78 algorithm. Do NOT make
+    any other changes to this expression. In particular, do not remove
+    the original dot '.'  at the beginning of this expression.]
+
+##ANSWER: (!! DO NOT MODIFY THIS LINE !!)
+..proc(x) proc(t) -(t, x) (3) (5)
+
+##QUESTION 5 (5 pts):
+    Repeat the above with the following expression:
+
+    let
+      p = proc(t) add1(t)
+      q = proc(f,x) .f(x)
+    in
+      .q(p, 4)
+
+##ANSWER: (!! DO NOT MODIFY THIS LINE !!)
+.proc(p, q) .q(p, 4) (proc(t) add1(t), proc(f, x) .f(x))
+
+
+##QUESTION 6 (5 pts):
+    Repeat the above with the following expression. In this case,
+    there are three 'let' expressions that you must replace with
+    procedure applications.
+
+    let
+      t = 3
+    in
+      let
+        f = let x=t in proc(t) -(t,x)
+      in
+        .f(5)
+
+##ANSWER: (!! DO NOT MODIFY THIS LINE !!)
+.proc(t) .proc(f) .f(5) (.proc(x) proc(t) -(t, x) (t) ) (3)
+
+
+##SUBMISSION REQUIREMENTS
+-------------------------
+
+Submit a FLAT zip file A5.zip containing the following files, including
+those described above for the MACRO language:
+
+    a5-macro-grammar
+    a5-macro-code
+    a5-macro-val
+    a5 (this file, edited with your answers to questions 2 through 6)
+
+Your A5.zip file should NOT contain any other files or directories.
+Submit your A5.zip file into your A5 MyCourses dropbox.
