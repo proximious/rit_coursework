@@ -1,0 +1,415 @@
+CSCI 344 - Programming Language Concepts
+Assignment A1 (80 points)
+Due Wednesday, Sep 8, 11:59pm
+
+NOTE:
+You are to answer each of these questions, indicated by lines following
+each '##QUESTION:' line, by entering your corresponding answer lines
+FOLLOWING each '##ANSWER:' line if requested. Please leave whitespace
+around your answers so they are easy to read. DO NOT ADD ANY TEXT TO ANY
+'##ANSWER:' LINE.
+
+Your submission must include the contents of this plain text file, with
+your answers added as described above.  Copy this file into a suitable
+working directory and edit your copy using a text editor (NOT a word
+processor) by adding your answers.
+
+DO NOT MAKE ANY CHANGES TO THE QUESTIONS OR OTHER TEXT CONTAINED IN
+THIS FILE except for adding your answers to the questions or replacing
+obvious directives such as "<REPLACE this ...>" or "**FIXME**".  Add more
+whitespace in your answer lines if you need to do so, but LEAVE THE
+ORIGINAL FILE CONTENTS AS-IS.
+
+This file (a1) can be found on the CS lab server here:
+
+   /usr/local/pub/plcc/Assignments/A1/a1
+
+As described in the ##SUBMISSION REQUIREMENTS section at the end of this
+assignment description, your edited copy 'a1' will become part of your
+A1.zip myCourses file submission.
+
+##QUESTION 1 (10 pts):
+
+    Create a directory named 'WHOWHAT' in which you will do the work
+    as described here. 
+
+    Write a lexical specification file named 'grammar' acceptable to
+    PLCC that skips over whitespace and skips all characters from a '@'
+    character to the end of the line.
+
+    Your lexical specification should accept all strings consisting of
+    one or more letters (lower- and upper-case) and/or digits as a
+    single token named LD (for Letters and Digits). The lexical
+    specification should also accept the following strings as
+    specific tokens, none of which should be considered as LD tokens:
+
+        who
+        what
+        when
+        where
+        how
+        why
+        did
+        happen
+
+    In your lexical specification, use appropriate token names for these,
+    so that the output appears as shown in the example below.  The lexical
+    specification should also accept a COMMA token, consisting of the
+    single character ','.
+
+    If the scanner encounters anything that does not conform to these
+    specifications, the scanner will report it as an error token.
+
+    Once you have created your 'grammar' file in the WHOWHAT directory,
+    run 'plccmk' in this directory to process your grammar specification.
+    This creates a subdirectory named Java, containing -- among other
+    things -- a Java executable class file named 'Scan' that implements a
+    scanner for your lexical specification. You should not see any errors
+    when running 'plccmk'. (You will see the message "No grammar rules",
+    which is not an error.)
+
+    Create a filed named 'test' in the WHOWHAT directory containing the
+    following lines:
+
+        @ example input
+        what happened, when did
+        it happen, where, how and why
+        did it happen,
+        and who did it happen to?
+        Maybe it didn't happen!
+        however, @this is a @comment.
+        234_LD345 theEND.
+
+    Still in the WHOWHAT directory, run the Scan program using the file
+    'test' as input. Do this as follows:
+
+        java -cp Java Scan test
+
+    With the file 'test' as input to your scanner, your scanner output
+    should look *exactly* like this (except for line numbers and leading
+    spaces):
+
+    WHAT 'what'
+    LD 'happened'
+    COMMA ','
+    WHEN 'when'
+    DID 'did'
+    LD 'it'
+    HAPPEN 'happen'
+    COMMA ','
+    WHERE 'where'
+    COMMA ','
+    HOW 'how'
+    LD 'and'
+    WHY 'why'
+    DID 'did'
+    LD 'it'
+    HAPPEN 'happen'
+    COMMA ','
+    LD 'and'
+    WHO 'who'
+    DID 'did'
+    LD 'it'
+    HAPPEN 'happen'
+    LD 'to'
+    !ERROR("?")
+    LD 'Maybe'
+    LD 'it'
+    LD 'didn'
+    !ERROR("'")
+    LD 't'
+    HAPPEN 'happen'
+    !ERROR("!")
+    LD 'however'
+    COMMA ','
+    LD '234'
+    !ERROR("_")
+    LD 'LD345'
+    LD 'theEND'
+    !ERROR(".")
+
+    If your output differs from this, make sure you understand the
+    "first longest match" requirement for token processing, and then
+    make changes to your lexical specification to achieve the correct
+    output.
+
+    In the '##ANSWER' section below, remove the "<REPLACE ...>" line and
+    copy the contents of your 'grammar' file into this section. I will
+    test your 'grammar' file using various input files to check for its
+    correctness.
+
+##ANSWER: (!! DO NOT MODIFY THIS LINE !!)
+
+skip WHITESPACE '\s+'
+skip SIGN '@.*'
+token WHO 'who'
+token WHAT 'what'
+token WHERE 'where'
+token WHEN 'when'
+token WHY 'why'
+token HOW 'how'
+token HAPPEN 'happen'
+token DID 'did'
+token LD '\p{Alnum}+'
+token COMMA ','
+
+##QUESTION 2 (10 pts):
+    Consider the following BNF grammar rule in a PLCC language
+    specification file:
+
+        <wisdom>:Folly ::= WHAT <has> HAPPENED <HERE> QMARK
+
+    What (non-abstract) Java class does this grammar rule define,
+    and what are its instance variables (a.k.a. fields) and types?
+    Write your answer in the form of a Java signature for the constructor
+    for the class:
+
+        XXX(AAA aaa, BBB bbb, ...)
+
+    Here XXX is the class name, and the instance variables are aaa
+    of type AAA, bbb of type BBB, and so forth.
+
+##ANSWER: (!! DO NOT MODIFY THIS LINE !!)
+
+Folly(Has has, Token here)
+
+##QUESTION 3 (10 pts):
+    Repeat the question above, except use the following grammar rule:
+
+        <moreAndMore> **= MORE <and> <MORE>
+
+##ANSWER: (!! DO NOT MODIFY THIS LINE !!)
+
+MoreAndMore(List<and> andList, List<Token> moreList)
+
+##QUESTION 4 (10 pts):
+    Repeat the question above, except use the following grammar rule:
+
+        <solarSystem> ::= <planet>p1 <planet>p2 <planet>p3
+
+##ANSWER: (!! DO NOT MODIFY THIS LINE !!)
+
+SolarSystem(Planet p1, Planet p2, Planet p3)
+
+##QUESTION 5 (10 pts):
+    Consider the language of strings consisting of n 'x's, followed by
+    n 'y's, followed by the '#' character, where n is any nonnegative
+    integer. In set notation, this language is
+
+        { "#", "xy#", "xxyy#", "xxxyyy#", ... }
+
+    Here is a BNF grammar for this language, using PLCC notation:
+
+        <prog>     ::= <xnyn> HASH
+        <xnyn>:XY  ::= X <xnyn> Y
+        <xnyn>:Nil ::= 
+
+    Here 'X', 'Y', and 'HASH' are the token names for the lexemes 'x',
+    'y', and '#', respectively.
+
+    Create a directory XNYN in which you will do your work. In this
+    directory, create a file named 'grammar' containing a lexical
+    specification and syntax specification for the language described
+    above. Include a lexical specification to skip WHITESPACE.  Then run
+    'plccmk' in the XNYN directory.  This creates a subdirectory named
+    Java, containing -- among other things -- a Java executable class
+    file named Parse.
+
+    Create three files in the XNYN directory. One, named 'test', should
+    contain the following lines:
+
+        #
+        xy#
+        xxyy#
+
+    Another, named 'err1', should contain the line
+
+        y#
+
+    and a third, named 'err2', should contain the line
+
+        xyxy#
+
+    The lines in the file 'test' should all parse correctly, but the lines
+    from 'err1' and 'err2' should not.
+
+    In the XNYN directory, run the Parse program as follows:
+
+        java -cp Java Parse test err1 err2
+
+    In the ##ANSWER area below, report on the output produced by 
+    running the above command.
+
+##ANSWER: (!! DO NOT MODIFY THIS LINE !!)
+
+OK
+OK
+OK
+%%% Parse error: expected token HASH, got Y
+%%% Parse error: expected token HASH, got X
+
+##QUESTION 6 (20 pts):
+    As we have shown in our class notes (Slides 1.48 and 1.49) and in
+    Language LON2 (in the Code directory), the Read-eval-print loop (Rep)
+    displays the list of numbers in human-readable form by defining an
+    appropriate 'void $run()' method in the Lon class. The LON2 grammar
+    uses a repeating rule to collect the NUM Token values in a list,
+    which we traverse in the 'void $run()' method to display the values.
+
+    The grammar in Language LON (in the Code directory) also recognizes
+    a the same lists of numbers as Language LON2, but it does so using
+    recursive grammar rules for the '<nums>' nonterminal instead of
+    a repeating rule as in LON2. Also, the default semantic action in
+    Language LON doesn't display the list of numbers in human-readable
+    form like LON2 does. In this QUESTION, start with the LON grammar
+    file rules and add semantic actions that produce output identical
+    to the output of LON2.  Create a working directory named LON1.5
+    and copy the grammar file from the LON directory into this working
+    directory.
+
+    Add semantic actions to this grammar file -- in the section following
+    the grammar rules -- that displays the input lists in EXACTLY the
+    same format as displayed in LON2, with the exact same spacing. To do
+    this, first add a 'void $run()' method in the Lon class to display
+    output using the following code:
+
+        System.out.print("( ");
+        nums.$run();
+        System.out.println(")");
+
+    Clearly this code displays the opening and closing parentheses in the
+    list, but you need a '$run()' action in the Nums class to display
+    the individual values of the numbers inside the list. Recall that
+    the Nums class has two subclasses: NumsNode and NumsNull.
+
+    So you must define a 'void $run()' method in each of the Nums
+    subclasses to display the numbers as we have described. Before you
+    do so, you need to declare an abstract 'void $run()' method in the
+    Nums class (see below).
+
+    When you are done, your revised grammar file will have the following
+    contents in the semantics section, where you will have replaced the
+    '**FIXME**' lines with appropriate code to produce output exactly
+    the same as LON2.
+
+    Lon
+    %%%
+        public void $run() {
+            System.out.print("( ");
+            nums.$run();
+            System.out.println(")");
+        }
+    %%%
+
+    Nums
+    %%%
+        public abstract void $run(); // must be defined in subclasses
+    %%%
+
+    # the NumsNode class is a subclass of Nums
+    # that has fields named 'num' and 'nums'
+    NumsNode
+    %%%
+        public void $run() {
+            // **FIXME** [this will be recursive!]
+        }
+    %%%
+
+    # the NumsNull class is a subclass of Nums that has no fields
+    NumsNull
+    %%%
+        public void $run() {
+            return void;
+        }
+    %%%
+
+    You will need to THINK RECURSIVELY when you define the '$run()'
+    method in the NumsNode class! 
+
+    [If you wish, for debugging purposes, you can turn the '$run()'
+    method in the NumsNode class into a "stub", where the method just
+    displays something like "... in NumsNode ..."; do the same thing in
+    the NumsNull class. That way you will have a running interpreter that
+    will output something useful on your way to a full implementation.]
+
+    Once you have a completed implementation for the '$run()' method
+    in the NumsNode and NumsNull classes, make sure you run 'plccmk'
+    in your LON1.5 directory, and test your implementation by running
+    the read-eval-print loop with several lists of numbers. YOU SHOULD
+    GET EXACTLY THE SAME OUTPUT FROM LON1.5 AS YOU DO WITH LON2, with
+    exactly the same spacing. The command to run the read-eval-print
+    loop appears here (run this in the LON1.5 directory), where you
+    should input your lists after the '--> ' prompts:
+
+        java -cp Java Rep
+        --> ...
+
+    See the ##SUBMISSION REQUIREMENTS below for instructions on how
+    to submit your LON1.5 'grammar' file.
+
+##NARRATIVE
+
+    Consider the following PLCC lexical specification:
+
+        skip WHITESPACE '\s+'
+        NUM '\d+'
+        ABC 'abc'
+        LDU '\w+'
+    
+##QUESTION 7 (5 pts)
+
+    Using the above lexical specification, how many tokens are there
+    in the following line?
+
+        12abcdef12
+
+    Put your answer as an integer in the ##ANSWER section below.
+
+##ANSWER: (!! DO NOT MODIFY THIS LINE !!)
+
+There is 1 token.
+
+##QUESTION 8 (5 pts)
+
+    Repeat the above with the following line.
+
+        12 abcdef 12
+
+##ANSWER: (!! DO NOT MODIFY THIS LINE !!)
+
+There are 3 tokens.
+
+##SUBMISSION REQUIREMENTS
+    Create a flat zip file A1.zip (note the capital 'A') containing
+    ONLY the following two plain text files:
+
+    a1      -- a copy of this file, with each ##ANSWER section filled out
+    grammar -- the one you created in Question 6 above
+
+    When you list the contents of your A1.zip file (use the command
+    'unzip -l A1.zip'), you should see *only* the following two files:
+
+        a1
+        grammar
+
+##SUBMISSION NOTES:
+    Copy this file (a1) to a suitable directory and make changes to your
+    copy (still called a1) before creating your A1.zip file. Do *not*
+    make any changes to the file EXCEPT BY ADDING YOUR ANSWERS FOLLOWING
+    EACH OF THE ##ANSWER LINES OR BY REPLACING THE '//**FIXME**...' or
+    '<REPLACE...>' LINES WITH APPROPRIATE CONTENTS.
+
+    A 'flat' zip file contains only files, no directories (or "folders").
+    When I unzip your A1.zip submission, I should see *only* the files
+    'a1' and 'grammar', and nothing else. In particular, there should
+    not be a directory named 'A1' or any other directories.
+
+    Do *not* submit text files with extensions such as 'a1.txt' or
+    'grammar.txt'. The Windows operating system often silently adds the
+    '.txt' extension to text files, so be sure that these extensions are
+    removed when adding them to your zip file. The best way to ensure
+    this is to do your work on the CS lab Ubuntu systems and to create
+    your zip file there. Unlike Windows, the CS systems do not silently
+    add '.txt' extensions to text files.
+
+    Submit your A1.zip file to your A1 assignment dropbox in MyCourses.

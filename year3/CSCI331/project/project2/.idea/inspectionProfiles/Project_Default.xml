@@ -1,0 +1,86 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="JavaDoc" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="TOP_LEVEL_CLASS_OPTIONS">
+        <value>
+          <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+          <option name="REQUIRED_TAGS" value="" />
+        </value>
+      </option>
+      <option name="INNER_CLASS_OPTIONS">
+        <value>
+          <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+          <option name="REQUIRED_TAGS" value="" />
+        </value>
+      </option>
+      <option name="METHOD_OPTIONS">
+        <value>
+          <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+          <option name="REQUIRED_TAGS" value="@return@param@throws or @exception" />
+        </value>
+      </option>
+      <option name="FIELD_OPTIONS">
+        <value>
+          <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+          <option name="REQUIRED_TAGS" value="" />
+        </value>
+      </option>
+      <option name="IGNORE_DEPRECATED" value="false" />
+      <option name="IGNORE_JAVADOC_PERIOD" value="true" />
+      <option name="IGNORE_DUPLICATED_THROWS" value="false" />
+      <option name="IGNORE_POINT_TO_ITSELF" value="false" />
+      <option name="myAdditionalJavadocTags" value="filename:,author:" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E251" />
+          <option value="E502" />
+          <option value="E266" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="turtle.forward" />
+          <option value="turtle.right" />
+          <option value="turtle.left" />
+          <option value="turtle.up" />
+          <option value="turtle.down" />
+          <option value="turtle.speed" />
+          <option value="turtle.backward" />
+          <option value="turtle.circle" />
+          <option value="turtle.color" />
+          <option value="turtle.begin_fill" />
+          <option value="turtle.end_fill" />
+          <option value="turtle.setpos" />
+          <option value="turtle.colormode" />
+          <option value="turtle.fillcolor" />
+          <option value="turtle.goto" />
+          <option value="turtle.tracer" />
+          <option value="turtle.setworldcoordinates" />
+          <option value="turtle.setup" />
+          <option value="list.__getitem__" />
+          <option value="int.__getitem__" />
+          <option value="str.append" />
+          <option value="project.projectContent.html_builder.BACKCOLOR" />
+          <option value="project.projectContent.html_builder.FONTSTYLE" />
+          <option value="project.projectContent.html_builder.FONTCOLOR" />
+          <option value="project.projectContent.html_builder.HEADCOLOR" />
+          <option value="project.projectContent.html_builder.TITLE" />
+          <option value="project.projectContent.wizard_mode.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

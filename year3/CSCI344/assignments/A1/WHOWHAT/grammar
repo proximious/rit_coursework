@@ -1,0 +1,45 @@
+# Language specification for a list of numbers
+# Lexical spec
+skip WHITESPACE '\s+'
+NUM '\d+'
+LPAREN '\('
+RPAREN '\)'
+%
+# BNF rules
+<lon>           ::= LPAREN <nums> RPAREN
+<nums>:NumsNode ::= <NUM> <nums>
+<nums>:NumsNull ::=
+%
+
+ Lon
+    %%%
+        public void $run() {
+            System.out.print("( ");
+            nums.$run();
+            System.out.println(")");
+        }
+    %%%
+
+    Nums
+    %%%
+        public abstract void $run(); // must be defined in subclasses
+    %%%
+
+    # the NumsNode class is a subclass of Nums
+    # that has fields named 'num' and 'nums'
+    NumsNode
+    %%%
+        public void $run() {
+            System.out.print(num.toString() + " ");
+	    nums.$run();
+        }
+    %%%
+
+    # the NumsNull class is a subclass of Nums that has no fields
+    NumsNull
+    %%%
+        public void $run() {
+            return;
+        }
+    %%%
+
