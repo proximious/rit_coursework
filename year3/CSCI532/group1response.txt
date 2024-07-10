@@ -1,0 +1,19 @@
+﻿Group 1 - Christopher and Faraz - 
+Snort (A network intrusion prevention and detection system)
+Created by Martin Roesch in 1998 to be open-source and lightweight.
+Snort is a standard for Intrusion Detection and was recently updated in 2021
+It has 3 primary uses, Sniffer, Packet Logger, Network Intrusion Detection System
+Packet sniffer - gets the packet from the network
+Packet decoder - takes the packets and prepares the packets for processing
+Preprocessor - prepates the data for the detection engine
+Detection engine - applies the Snort rules to the packets
+Ouput modules - processes alerts, logs and generates the final packets
+
+Pros - 
+	Fantastic content in presentation, it is apparent that a significant amount of time was put into this.
+	The written content put
+Cons -
+	Actual presentation was mainly reading from slides
+	A majority of the slides was just "text on page", little graphics
+
+
