@@ -1,0 +1,122 @@
+Prim
+%%%
+    // apply the primitive to the passed values
+    public abstract Val apply(Val [] va);
+%%%
+
+AddPrim
+%%%
+
+    public String toString() {
+	return "+";
+    }
+
+    public Val apply(Val [] va) {
+	if (va.length != 2)
+	    throw new PLCCException("two arguments expected");
+	IntVal i0 = va[0].intVal();
+	IntVal i1 = va[1].intVal();
+	return i0.add(i1);
+    }
+%%%
+
+SubPrim
+%%%
+
+    public String toString() {
+	return "-";
+    }
+
+    public Val apply(Val [] va) {
+	if (va.length != 2)
+	    throw new PLCCException("two arguments expected");
+	IntVal i0 = va[0].intVal();
+	IntVal i1 = va[1].intVal();
+	return i0.subtract(i1);
+    }
+%%%
+
+MulPrim
+%%%
+
+    public String toString() {
+	return "*";
+    }
+
+    public Val apply(Val [] va) {
+	if (va.length != 2)
+	    throw new PLCCException("two arguments expected");
+	IntVal i0 = va[0].intVal();
+	IntVal i1 = va[1].intVal();
+	return i0.multiply(i1);
+    }
+
+%%%
+
+DivPrim
+%%%
+
+    public String toString() {
+	return "/";
+    }
+
+    public Val apply(Val [] va) {
+	if (va.length != 2)
+	    throw new PLCCException("two arguments expected");
+	IntVal i0 = va[0].intVal();
+	IntVal i1 = va[1].intVal();
+	if (i1.val.signum() == 0)
+            throw new PLCCException("attempt to divide by zero");
+	return i0.divide(i1);
+    }
+
+%%%
+
+Add1Prim
+%%%
+
+    public String toString() {
+	return "add1";
+    }
+
+    public Val apply(Val [] va) {
+	if (va.length != 1)
+	    throw new PLCCException("one argument expected");
+	IntVal i0 = va[0].intVal();
+	return i0.add1();
+    }
+
+%%%
+
+Sub1Prim
+%%%
+
+    public String toString() {
+	return "sub1";
+    }
+
+    public Val apply(Val [] va) {
+	if (va.length != 1)
+	    throw new PLCCException("one argument expected");
+	IntVal i0 = va[0].intVal();
+	return i0.sub1();
+    }
+
+%%%
+
+ZeropPrim
+%%%
+
+    public String toString() {
+	return "zero?";
+    }
+
+    public Val apply(Val [] va) {
+        if (va.length != 1)
+	    throw new PLCCException("one argument expected");
+	IntVal i0 = va[0].intVal();
+	return i0.val.signum() == 0 ? new IntVal("1"): new IntVal("0");
+    }
+
+%%%
+
