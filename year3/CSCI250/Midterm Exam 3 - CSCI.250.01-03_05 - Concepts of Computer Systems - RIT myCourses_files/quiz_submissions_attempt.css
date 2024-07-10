@@ -1,0 +1,31 @@
+.d2l-quiz-submission-exit-preview-button {
+	float: right;
+}
+
+[dir="rtl"] .d2l-quiz-submission-exit-preview-button {
+	float: left;
+}
+
+.d2l-quiz-submission-top-close-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+}
+
+[dir='rtl'] .d2l-quiz-submission-top-close-button {
+    position: absolute;
+    top: 0.75rem;
+    right: unset;
+    left: 1rem;
+}
+
+div.d2l-align-outcomes-indicator-container {
+    position: relative;
+    text-align: right;
+    padding: 0 0.5rem;
+    display: inline-block;
+}
+
+[dir="rtl"] div.d2l-align-outcomes-indicator-container {
+    text-align: left;
+}
