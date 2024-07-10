@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">3</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">de6e7c14-3a3e-4b00-a826-26d975081df7</dc:identifier>
+        <dc:title>Technical Communication, 15/e</dc:title>
+        <dc:creator opf:file-as="Lannon, John M. &amp; Gurak, Laura J." opf:role="aut">John M. Lannon</dc:creator>
+        <dc:creator opf:file-as="Lannon, John M. &amp; Gurak, Laura J." opf:role="aut">Laura J. Gurak</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (5.17.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2019-01-02T00:00:00+00:00</dc:date>
+        <dc:description>Revel for Technical Communication -- Access Card, 15/e</dc:description>
+        <dc:publisher>Pearson</dc:publisher>
+        <dc:language>eng</dc:language>
+        <meta name="calibre:author_link_map" content="{&quot;John M. Lannon&quot;: &quot;&quot;, &quot;Laura J. Gurak&quot;: &quot;&quot;}"/>
+        <meta name="calibre:timestamp" content="2021-07-03T20:43:27+00:00"/>
+        <meta name="calibre:title_sort" content="Technical Communication, 15/e"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="Technical Communication, 15_e - John M. Lannon &amp; Laura J. Gurak.jpg"/>
+    </guide>
+</package>
