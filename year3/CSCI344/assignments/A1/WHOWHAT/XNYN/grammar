@@ -1,0 +1,9 @@
+skip WHITESPACE '\s+'
+X 'x'
+Y 'y'
+HASH '#'
+%
+<prog>     ::= <xnyn> HASH
+<xnyn>:XY  ::= X <xnyn> Y
+<xnyn>:Nil ::= 
+%

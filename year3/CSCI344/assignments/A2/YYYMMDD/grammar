@@ -1,0 +1,67 @@
+NL '\n'
+DIGIT4 '\d\d\d\d'
+DIGIT2 '\d\d'
+SEP '/'
+%
+<yyyymmdd>  ::= <DIGIT4>yyyy SEP <DIGIT2>mm SEP <DIGIT2>dd NL
+%
+# semantics go here
+
+Yyyymmdd
+%%%
+	public void $run(){
+		String yearString = yyyy.toString();
+		int year = Integer.parseInt(yearString);
+
+		String monthString = mm.toString();
+                int month = Integer.parseInt(monthString);
+	
+		String dayString = dd.toString();
+                int day = Integer.parseInt(dayString);
+
+
+		if (month == 1){
+			month = 13;
+			year--;	
+		}
+
+		if (month == 2) {
+			month = 14;
+			year--;
+		}
+
+		int d = day;
+		int m = month;
+		int ymod = year % 100;
+		int ydiv = year / 100;
+
+		// found this equation on the internet 
+		int a = d + 13*(m + 1)/5 + ymod + ymod/4 + ydiv/4 + 5*ydiv;
+
+		a = a % 7; 
+
+		switch (a){
+			case 0: 
+				System.out.println("Saturday");
+				break;
+			case 1:
+				System.out.println("Sunday");
+                                break;
+			case 2:
+				System.out.println("Monday");
+                                break;
+			case 3:
+				System.out.println("Tuesday");
+                                break;
+			case 4:
+				System.out.println("Wednesday");
+                                break;
+			case 5:
+				System.out.println("Thursday");
+                                break;
+			case 6:
+				System.out.println("Friday");
+                                break;
+		}
+	}
+%%%

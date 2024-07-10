@@ -1,0 +1,54 @@
+NL '\n'
+ZERO '0'
+ONE '1'
+
+%
+<start> ::= <bits> NL
+<bits>  **= <bit>
+<bit>:BitZero ::= ZERO
+<bit>:BitOne ::= ONE
+%
+
+Start
+%%%
+	public void $run() {
+		System.out.println(bits.eval());
+	}
+%%%
+
+Bit
+%%%
+	public abstract int eval();
+%%%
+
+BitOne
+%%%
+	public int eval() {
+		return 1;
+	}
+%%%
+
+BitZero
+%%%
+	public int eval() {
+		return 0;
+	}
+%%%
+
+
+Bits
+%%%
+	public int eval(){
+		int val = 0;
+
+		if (bitList.size() == 0) {
+			throw new PLCCException("no bits to interpret");
+		}
+
+		for (int i = 0; i < bitList.size(); i++){
+			val = 2 * val + bitList.get(i).eval();
+		}
+
+		return val;
+	}
+%%%

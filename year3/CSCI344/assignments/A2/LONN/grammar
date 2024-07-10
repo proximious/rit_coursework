@@ -1,0 +1,58 @@
+# Language LONN (nonempty list of numbers)
+
+# Lexical specification
+skip WHITESPACE '\s+'
+LPAREN '\('
+RPAREN '\)'
+NUM '\d+'
+%
+# Grammar
+<lon>           ::= LPAREN <NUM> <nums> RPAREN
+<nums>:NumsNode ::= <NUM> <nums>
+<nums>:NumsNull ::=
+%
+
+# The $run() method in the Lon class
+# displays the minimum value in the list
+Lon
+%%%
+    public void $run() {
+        int minSoFar = Integer.parseInt(num.toString());
+        int m = nums.min(minSoFar); // get the overall minimum
+        System.out.println("minimum value = " + m);
+    }
+%%%
+
+# must declare 'min' as abstract in the base class
+# that extends NumsNode and NumsNull
+Nums
+%%%
+    public abstract int min(int minSoFar);
+%%%
+
+NumsNode
+%%%
+    public int min(int minSoFar) {
+	String current = num.toString();
+	int currentInt = Integer.parseInt(current);
+	
+	if (currentInt < minSoFar){
+		minSoFar = currentInt;
+	}
+
+	return nums.min(minSoFar);
+
+	//return 0; // This is just a stub. Remove this line ...
+        // ... and complete the method definition.
+        // This will be recursive!
+    }
+%%%
+
+NumsNull
+%%%
+    public int min(int minSoFar) {
+        return minSoFar;
+	//return 0; // This is just a stub. Remove this line ...
+        // ... and complete the method definition
+    }
+%%%

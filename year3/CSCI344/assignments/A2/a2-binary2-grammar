@@ -1,0 +1,57 @@
+NL '\n'
+ZERO '0'
+ONE '1'
+
+%
+<start>:Zeroes ::= ZERO NL
+<start>:Ones ::= ONE <bits> NL
+<bits>  **= <bit>
+<bit>:BitZero ::= ZERO
+<bit>:BitOne ::= ONE
+%
+
+Zeroes
+%%%
+	public void $run() {
+		System.out.println("0");
+	}
+%%%
+
+Ones
+%%%
+	public void $run() {
+		System.out.println(bits.eval());
+	}
+%%%
+
+Bit
+%%%
+	public abstract int eval();
+%%%
+
+BitOne
+%%%
+	public int eval() {
+		return 1;
+	}
+%%%
+
+BitZero
+%%%
+	public int eval() {
+		return 0;
+	}
+%%%
+
+Bits
+%%%
+	public int eval(){
+		int val = 1;
+
+		for (int i = 0; i < bitList.size(); i++){
+			val = 2 * val + bitList.get(i).eval();
+		}
+
+		return val;
+	}
+%%%
