@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>04-05</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>04-05</PackageId>
+    <LangVersion>latest</LangVersion>
+
+  </PropertyGroup>
+
+</Project>
