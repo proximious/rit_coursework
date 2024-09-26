@@ -1,0 +1,30 @@
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/bin/Debug/net6.0/w1d2
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/bin/Debug/net6.0/w1d2.deps.json
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/bin/Debug/net6.0/w1d2.runtimeconfig.json
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/bin/Debug/net6.0/w1d2.dll
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/bin/Debug/net6.0/ref/w1d2.dll
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/bin/Debug/net6.0/w1d2.pdb
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/obj/Debug/net6.0/w1d2.csproj.AssemblyReference.cache
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/obj/Debug/net6.0/w1d2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/obj/Debug/net6.0/w1d2.AssemblyInfoInputs.cache
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/obj/Debug/net6.0/w1d2.AssemblyInfo.cs
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/obj/Debug/net6.0/w1d2.csproj.CoreCompileInputs.cache
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/obj/Debug/net6.0/w1d2.dll
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/obj/Debug/net6.0/ref/w1d2.dll
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/obj/Debug/net6.0/w1d2.pdb
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 01/w1d2/obj/Debug/net6.0/w1d2.genruntimeconfig.cache
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\bin\Debug\net6.0\w1d2.exe
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\bin\Debug\net6.0\w1d2.deps.json
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\bin\Debug\net6.0\w1d2.runtimeconfig.json
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\bin\Debug\net6.0\w1d2.dll
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\bin\Debug\net6.0\w1d2.pdb
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\obj\Debug\net6.0\w1d2.csproj.AssemblyReference.cache
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\obj\Debug\net6.0\w1d2.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\obj\Debug\net6.0\w1d2.AssemblyInfoInputs.cache
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\obj\Debug\net6.0\w1d2.AssemblyInfo.cs
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\obj\Debug\net6.0\w1d2.csproj.CoreCompileInputs.cache
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\obj\Debug\net6.0\w1d2.dll
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\obj\Debug\net6.0\refint\w1d2.dll
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\obj\Debug\net6.0\w1d2.pdb
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\obj\Debug\net6.0\w1d2.genruntimeconfig.cache
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\Module 1\w1d2\obj\Debug\net6.0\ref\w1d2.dll

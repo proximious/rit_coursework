@@ -1,0 +1,16 @@
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\bin\Debug\net5.0\w1d1.exe
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\bin\Debug\net5.0\w1d1.deps.json
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\bin\Debug\net5.0\w1d1.runtimeconfig.json
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\bin\Debug\net5.0\w1d1.runtimeconfig.dev.json
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\bin\Debug\net5.0\w1d1.dll
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\bin\Debug\net5.0\ref\w1d1.dll
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\bin\Debug\net5.0\w1d1.pdb
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\obj\Debug\net5.0\w1d1.csprojAssemblyReference.cache
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\obj\Debug\net5.0\w1d1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\obj\Debug\net5.0\w1d1.AssemblyInfoInputs.cache
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\obj\Debug\net5.0\w1d1.AssemblyInfo.cs
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\obj\Debug\net5.0\w1d1.csproj.CoreCompileInputs.cache
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\obj\Debug\net5.0\w1d1.dll
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\obj\Debug\net5.0\ref\w1d1.dll
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\obj\Debug\net5.0\w1d1.pdb
+C:\Users\jsb\Dropbox\Teaching\2208\CSCI.251\src\Module 01\w1d1\obj\Debug\net5.0\w1d1.genruntimeconfig.cache
