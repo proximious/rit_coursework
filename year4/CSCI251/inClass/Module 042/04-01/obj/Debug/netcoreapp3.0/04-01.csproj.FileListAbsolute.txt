@@ -1,0 +1,11 @@
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 04/04-01/bin/Debug/netcoreapp3.0/04-01
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 04/04-01/bin/Debug/netcoreapp3.0/04-01.deps.json
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 04/04-01/bin/Debug/netcoreapp3.0/04-01.runtimeconfig.json
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 04/04-01/bin/Debug/netcoreapp3.0/04-01.runtimeconfig.dev.json
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 04/04-01/bin/Debug/netcoreapp3.0/04-01.dll
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 04/04-01/bin/Debug/netcoreapp3.0/04-01.pdb
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 04/04-01/obj/Debug/netcoreapp3.0/04-01.csprojAssemblyReference.cache
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 04/04-01/obj/Debug/netcoreapp3.0/04-01.AssemblyInfoInputs.cache
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 04/04-01/obj/Debug/netcoreapp3.0/04-01.AssemblyInfo.cs
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 04/04-01/obj/Debug/netcoreapp3.0/04-01.dll
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 04/04-01/obj/Debug/netcoreapp3.0/04-01.pdb
