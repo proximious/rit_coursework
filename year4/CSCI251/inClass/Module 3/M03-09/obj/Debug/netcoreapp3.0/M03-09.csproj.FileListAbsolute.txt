@@ -1,0 +1,33 @@
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/inclass/Module3/M03-09/bin/Debug/netcoreapp3.0/M03-09
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/inclass/Module3/M03-09/bin/Debug/netcoreapp3.0/M03-09.deps.json
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/inclass/Module3/M03-09/bin/Debug/netcoreapp3.0/M03-09.runtimeconfig.json
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/inclass/Module3/M03-09/bin/Debug/netcoreapp3.0/M03-09.runtimeconfig.dev.json
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/inclass/Module3/M03-09/bin/Debug/netcoreapp3.0/M03-09.dll
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/inclass/Module3/M03-09/bin/Debug/netcoreapp3.0/M03-09.pdb
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/inclass/Module3/M03-09/obj/Debug/netcoreapp3.0/M03-09.csprojAssemblyReference.cache
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/inclass/Module3/M03-09/obj/Debug/netcoreapp3.0/M03-09.AssemblyInfoInputs.cache
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/inclass/Module3/M03-09/obj/Debug/netcoreapp3.0/M03-09.AssemblyInfo.cs
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/inclass/Module3/M03-09/obj/Debug/netcoreapp3.0/M03-09.dll
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/inclass/Module3/M03-09/obj/Debug/netcoreapp3.0/M03-09.pdb
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 03/M03-09/bin/Debug/netcoreapp3.0/M03-09
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 03/M03-09/bin/Debug/netcoreapp3.0/M03-09.deps.json
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 03/M03-09/bin/Debug/netcoreapp3.0/M03-09.runtimeconfig.json
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 03/M03-09/bin/Debug/netcoreapp3.0/M03-09.runtimeconfig.dev.json
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 03/M03-09/bin/Debug/netcoreapp3.0/M03-09.dll
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 03/M03-09/bin/Debug/netcoreapp3.0/M03-09.pdb
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 03/M03-09/obj/Debug/netcoreapp3.0/M03-09.csprojAssemblyReference.cache
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 03/M03-09/obj/Debug/netcoreapp3.0/M03-09.AssemblyInfoInputs.cache
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 03/M03-09/obj/Debug/netcoreapp3.0/M03-09.AssemblyInfo.cs
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 03/M03-09/obj/Debug/netcoreapp3.0/M03-09.dll
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 03/M03-09/obj/Debug/netcoreapp3.0/M03-09.pdb
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 03/M03-09/bin/Debug/netcoreapp3.0/M03-09
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 03/M03-09/bin/Debug/netcoreapp3.0/M03-09.deps.json
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 03/M03-09/bin/Debug/netcoreapp3.0/M03-09.runtimeconfig.json
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 03/M03-09/bin/Debug/netcoreapp3.0/M03-09.runtimeconfig.dev.json
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 03/M03-09/bin/Debug/netcoreapp3.0/M03-09.dll
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 03/M03-09/bin/Debug/netcoreapp3.0/M03-09.pdb
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 03/M03-09/obj/Debug/netcoreapp3.0/M03-09.csprojAssemblyReference.cache
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 03/M03-09/obj/Debug/netcoreapp3.0/M03-09.AssemblyInfoInputs.cache
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 03/M03-09/obj/Debug/netcoreapp3.0/M03-09.AssemblyInfo.cs
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 03/M03-09/obj/Debug/netcoreapp3.0/M03-09.dll
+/Users/jsb/Dropbox/Teaching/2195/CSCI.251/src/Module 03/M03-09/obj/Debug/netcoreapp3.0/M03-09.pdb

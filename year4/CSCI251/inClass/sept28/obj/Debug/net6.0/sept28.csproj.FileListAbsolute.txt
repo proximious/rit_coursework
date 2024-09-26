@@ -1,0 +1,5 @@
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\sept28\obj\Debug\net6.0\sept28.csproj.AssemblyReference.cache
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\sept28\obj\Debug\net6.0\sept28.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\sept28\obj\Debug\net6.0\sept28.AssemblyInfoInputs.cache
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\sept28\obj\Debug\net6.0\sept28.AssemblyInfo.cs
+G:\My Drive\collegeFiles\year4\CSCSI251\inClass\sept28\obj\Debug\net6.0\sept28.csproj.CoreCompileInputs.cache

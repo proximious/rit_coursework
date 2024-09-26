@@ -1,0 +1,10 @@
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\inclass\Module3\M03-07\bin\Debug\netcoreapp2.0\M03-07.deps.json
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\inclass\Module3\M03-07\bin\Debug\netcoreapp2.0\M03-07.runtimeconfig.json
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\inclass\Module3\M03-07\bin\Debug\netcoreapp2.0\M03-07.runtimeconfig.dev.json
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\inclass\Module3\M03-07\bin\Debug\netcoreapp2.0\M03-07.dll
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\inclass\Module3\M03-07\bin\Debug\netcoreapp2.0\M03-07.pdb
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\inclass\Module3\M03-07\obj\Debug\netcoreapp2.0\M03-07.csproj.CoreCompileInputs.cache
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\inclass\Module3\M03-07\obj\Debug\netcoreapp2.0\M03-07.AssemblyInfoInputs.cache
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\inclass\Module3\M03-07\obj\Debug\netcoreapp2.0\M03-07.AssemblyInfo.cs
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\inclass\Module3\M03-07\obj\Debug\netcoreapp2.0\M03-07.dll
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\inclass\Module3\M03-07\obj\Debug\netcoreapp2.0\M03-07.pdb

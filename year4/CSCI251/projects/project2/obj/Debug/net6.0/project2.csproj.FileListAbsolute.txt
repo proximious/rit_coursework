@@ -1,0 +1,15 @@
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\bin\Debug\net6.0\project2.exe
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\bin\Debug\net6.0\project2.deps.json
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\bin\Debug\net6.0\project2.runtimeconfig.json
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\bin\Debug\net6.0\project2.dll
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\bin\Debug\net6.0\project2.pdb
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\obj\Debug\net6.0\project2.csproj.AssemblyReference.cache
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\obj\Debug\net6.0\project2.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\obj\Debug\net6.0\project2.AssemblyInfoInputs.cache
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\obj\Debug\net6.0\project2.AssemblyInfo.cs
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\obj\Debug\net6.0\project2.csproj.CoreCompileInputs.cache
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\obj\Debug\net6.0\project2.dll
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\obj\Debug\net6.0\refint\project2.dll
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\obj\Debug\net6.0\project2.pdb
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\obj\Debug\net6.0\project2.genruntimeconfig.cache
+G:\My Drive\collegeFiles\year4\CSCSI251\projects\project2\obj\Debug\net6.0\ref\project2.dll
