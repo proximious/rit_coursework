@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "z5G+oesz43ZmO1Aqrp5mmZR5ChrpDYzNCF5fsfiu2E0F+o7n/GwarPI5ozSBdSG+LdANigjgRF4btL4Ucv5tVA==",
+  "success": true,
+  "projectFilePath": "/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 07/07-03/07-03.csproj",
+  "expectedPackageFiles": [
+    "/Users/jsb/.nuget/packages/newtonsoft.json/12.0.3-beta2/newtonsoft.json.12.0.3-beta2.nupkg.sha512"
+  ],
+  "logs": []
+}

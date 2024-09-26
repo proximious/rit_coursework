@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "arbf218YM/cax3VP5If4ZItJ8LpbxSd8zzyXrtm6MRcanI8JZ8qUzk7CWuIZhi8RuWmjDBmFW5vCSSxh1lzH+Q==",
+  "success": true,
+  "projectFilePath": "/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 07/07-01/07-01.csproj",
+  "expectedPackageFiles": [
+    "/Users/jsb/.nuget/packages/microsoft.netcore.platforms/2.0.1/microsoft.netcore.platforms.2.0.1.nupkg.sha512",
+    "/Users/jsb/.nuget/packages/newtonsoft.json/12.0.3-beta2/newtonsoft.json.12.0.3-beta2.nupkg.sha512"
+  ],
+  "logs": []
+}

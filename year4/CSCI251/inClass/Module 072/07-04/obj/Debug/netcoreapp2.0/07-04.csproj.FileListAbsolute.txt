@@ -1,0 +1,11 @@
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\src\Module 07\07-04\bin\Debug\netcoreapp2.0\07-04.deps.json
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\src\Module 07\07-04\bin\Debug\netcoreapp2.0\07-04.runtimeconfig.json
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\src\Module 07\07-04\bin\Debug\netcoreapp2.0\07-04.runtimeconfig.dev.json
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\src\Module 07\07-04\bin\Debug\netcoreapp2.0\07-04.dll
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\src\Module 07\07-04\bin\Debug\netcoreapp2.0\07-04.pdb
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\src\Module 07\07-04\obj\Debug\netcoreapp2.0\07-04.csprojResolveAssemblyReference.cache
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\src\Module 07\07-04\obj\Debug\netcoreapp2.0\07-04.csproj.CoreCompileInputs.cache
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\src\Module 07\07-04\obj\Debug\netcoreapp2.0\07-04.AssemblyInfoInputs.cache
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\src\Module 07\07-04\obj\Debug\netcoreapp2.0\07-04.AssemblyInfo.cs
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\src\Module 07\07-04\obj\Debug\netcoreapp2.0\07-04.dll
+C:\Users\jsb\Dropbox\Teaching\2175\CSCI.251\src\Module 07\07-04\obj\Debug\netcoreapp2.0\07-04.pdb
