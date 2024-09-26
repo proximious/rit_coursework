@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/M07-07/M07-07.csproj": {}
+  },
+  "projects": {
+    "/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/M07-07/M07-07.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/M07-07/M07-07.csproj",
+        "projectName": "M07-07",
+        "projectPath": "/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/M07-07/M07-07.csproj",
+        "packagesPath": "/Users/jsb/.nuget/packages/",
+        "outputPath": "/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/M07-07/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jsb/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

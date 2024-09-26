@@ -1,0 +1,15 @@
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/bin/Debug/netcoreapp3.0/M07-06
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/bin/Debug/netcoreapp3.0/M07-06.deps.json
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/bin/Debug/netcoreapp3.0/M07-06.runtimeconfig.json
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/bin/Debug/netcoreapp3.0/M07-06.runtimeconfig.dev.json
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/bin/Debug/netcoreapp3.0/M07-06.dll
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/bin/Debug/netcoreapp3.0/M07-06.pdb
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/obj/Debug/netcoreapp3.0/M07-06.csprojAssemblyReference.cache
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/obj/Debug/netcoreapp3.0/staticwebassets/M07-06.StaticWebAssets.Manifest.cache
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/obj/Debug/netcoreapp3.0/staticwebassets/M07-06.StaticWebAssets.xml
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/obj/Debug/netcoreapp3.0/M07-06.MvcApplicationPartsAssemblyInfo.cache
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/obj/Debug/netcoreapp3.0/M07-06.AssemblyInfoInputs.cache
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/obj/Debug/netcoreapp3.0/M07-06.AssemblyInfo.cs
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/obj/Debug/netcoreapp3.0/M07-06.RazorTargetAssemblyInfo.cache
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/obj/Debug/netcoreapp3.0/M07-06.dll
+/Users/jsb/Dropbox/Teaching/2191/CSCI.251/src/Module 07/WSClient/obj/Debug/netcoreapp3.0/M07-06.pdb

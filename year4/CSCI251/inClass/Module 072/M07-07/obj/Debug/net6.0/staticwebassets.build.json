@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "NHk7T2tt1A2Bbq+eTIrvqRYbFnojNabRw5oAiMtP5Xg=",
+  "Source": "M07-07",
+  "BasePath": "_content/M07-07",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "M07-07\\wwwroot",
+      "Source": "M07-07",
+      "ContentRoot": "G:\\My Drive\\collegeFiles\\year4\\CSCSI251\\inClass\\Module 072\\M07-07\\wwwroot\\",
+      "BasePath": "_content/M07-07",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\My Drive\\collegeFiles\\year4\\CSCSI251\\inClass\\Module 072\\M07-07\\wwwroot\\index.html",
+      "SourceId": "M07-07",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\My Drive\\collegeFiles\\year4\\CSCSI251\\inClass\\Module 072\\M07-07\\wwwroot\\",
+      "BasePath": "_content/M07-07",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
