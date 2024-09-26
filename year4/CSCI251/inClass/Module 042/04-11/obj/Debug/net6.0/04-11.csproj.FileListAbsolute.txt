@@ -1,0 +1,15 @@
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/bin/Debug/net6.0/04-11
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/bin/Debug/net6.0/04-11.deps.json
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/bin/Debug/net6.0/04-11.runtimeconfig.json
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/bin/Debug/net6.0/04-11.dll
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/bin/Debug/net6.0/ref/04-11.dll
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/bin/Debug/net6.0/04-11.pdb
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/obj/Debug/net6.0/04-11.csproj.AssemblyReference.cache
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/obj/Debug/net6.0/04-11.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/obj/Debug/net6.0/04-11.AssemblyInfoInputs.cache
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/obj/Debug/net6.0/04-11.AssemblyInfo.cs
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/obj/Debug/net6.0/04-11.csproj.CoreCompileInputs.cache
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/obj/Debug/net6.0/04-11.dll
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/obj/Debug/net6.0/ref/04-11.dll
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/obj/Debug/net6.0/04-11.pdb
+/Users/jsb/Dropbox/Teaching/2215/CSCI.251/src/Module 04/04-11/obj/Debug/net6.0/04-11.genruntimeconfig.cache
