@@ -1,0 +1,8 @@
+# Ignore PDF files
+*.pdf
+
+# Ignore EXE files
+*.exe
+
+# Ignore MP4 files
+*.mp4
