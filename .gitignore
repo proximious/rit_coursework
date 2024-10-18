@@ -6,3 +6,6 @@
 
 # Ignore MP4 files
 *.mp4
+
+# Ignore zip files
+*.zip
